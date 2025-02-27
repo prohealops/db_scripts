@@ -1,0 +1,5 @@
+Inspec_Control_ID,Remediation_File,Remediation_Command
+package-01,remediation-package-01.rb,chef-client -z remediation-package-01.rb
+package-02,remediation-package-02.rb,chef-client -z remediation-package-02.rb
+user-01,remediation-user-01.rb,chef-client -z remediation-user-01.rb
+
