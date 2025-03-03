@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection details
-
+source /root/.db_config
 
 # SQL statement to create the table (allow NULL values)
 SQL_QUERY="CREATE TABLE IF NOT EXISTS master (

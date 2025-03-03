@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection details
-
+source /root/.db_config
 # SQL command to create the table with nullable columns
 SQL_COMMAND="CREATE TABLE IF NOT EXISTS pre_scan (
     Primary_Key INT AUTO_INCREMENT PRIMARY KEY,

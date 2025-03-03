@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection details
-
+source /root/.db_config
 # Get the list of tables
 TABLES=$(mysql -h "$DB_HOST" -P "$DB_PORT" -u "$DB_USER" -p"$DB_PASS" -D "$DB_NAME" -se "SHOW TABLES;")
 
